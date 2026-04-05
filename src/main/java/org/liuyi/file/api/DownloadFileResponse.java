@@ -9,5 +9,6 @@ public class DownloadFileResponse extends BaseResponse {
         FILE_NOT_FOUND,    // 文件不存在
         UNKNOWN_ERROR      // 未知错误（可选）
     }
+    DownloadErrorType errorType;
     byte[] content;
 }
