@@ -5,5 +5,4 @@ import lombok.Data;
 @Data
 public class BaseResponse {
     boolean success;
-    String errMsg;
 }
