@@ -1,4 +1,7 @@
 package org.liuyi.file.api;
 
-public class FileService {
+public interface FileService {
+    UploadFileResponse uploadFile(UploadFileRequest request);
+    DownloadFileResponse downloadFile(DownloadFileRequest request);
 }
+
