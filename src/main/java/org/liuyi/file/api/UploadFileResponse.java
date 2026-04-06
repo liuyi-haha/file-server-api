@@ -1,8 +1,14 @@
 package org.liuyi.file.api;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class UploadFileResponse extends BaseResponse{
     public enum UploadErrorType {
         FILE_TOO_LARGE,    // 文件体积太大
